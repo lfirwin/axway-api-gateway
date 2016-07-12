@@ -1,0 +1,9 @@
+#!/bin/bash
+cd ../../apic-export
+pwd
+git pull
+cd ../vordelconfig/deploy
+git pull
+/apps/Axway-7.4/apigateway/posix/bin/jython deployAPI.py "$@"
+git ci -am "wasadm: deploy @ $(date)"
+git push

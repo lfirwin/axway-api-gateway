@@ -1,0 +1,9 @@
+# Properties for HINT1
+
+INSTALL_PATH="/apps/Axway-7.4/apigateway"
+SCRIPT_DIR="/apps/Axway-7.4/scripts"
+SCRIPT_DESIGNATOR="api"
+INSTANCE="DEV_API"
+HOSTS[0]="hostname1.blah.com"
+HOSTS[1]="hostname2.blah.com"
+

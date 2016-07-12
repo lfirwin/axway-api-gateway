@@ -1,0 +1,26 @@
+# the default port which the Instance listens on for HTTP traffic
+env.PORT.TRAFFIC=8080
+
+# the default port which the Instance listens on for management/configuration HTTP traffic
+env.PORT.MANAGEMENT=9085
+
+# the default port which the Instance listens on for sample messages
+env.PORT.SAMPLE.SERVICES=8081
+
+# the hostname of the OAuth Server defaults to localhost
+env.OAUTH.SERVER=localhost
+
+# the default port which OAuth 2.0 Services listen on for traffic
+env.PORT.OAUTH2.SERVICES=8089
+
+# the hostname of the OAuth Client defaults to localhost
+env.OAUTH.CLIENT=localhost
+
+# the default port which OAuth 2.0 Client Services listen on for traffic
+env.PORT.OAUTH2.CLIENT=8088
+
+# the default AMA broker port
+env.BROKER.PORT=61616
+env.PORT.SSL.TRAFFIC=9043
+env.INSTANCE.ID=DEV_API
+
